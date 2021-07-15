@@ -75,5 +75,8 @@
     "rollup": "^2.53.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.0"
+  },
+  "resolutions": {
+    "babel-loader": "8.1.0"
   }
 }

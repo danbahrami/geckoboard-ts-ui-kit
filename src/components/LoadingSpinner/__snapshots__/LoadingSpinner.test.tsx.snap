@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components / LoadingSpinner lets you apply a \`dark\` theme 1`] = `
+<div>
+  <div
+    class="ui-loading-spinner"
+    style="width: 20px; height: 20px;"
+  >
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-1 ui-loading-spinner__circle--theme-dark"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-2 ui-loading-spinner__circle--theme-dark"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-3 ui-loading-spinner__circle--theme-dark"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-4 ui-loading-spinner__circle--theme-dark"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-5 ui-loading-spinner__circle--theme-dark"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-6 ui-loading-spinner__circle--theme-dark"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-7 ui-loading-spinner__circle--theme-dark"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-8 ui-loading-spinner__circle--theme-dark"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-9 ui-loading-spinner__circle--theme-dark"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-10 ui-loading-spinner__circle--theme-dark"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-11 ui-loading-spinner__circle--theme-dark"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-12 ui-loading-spinner__circle--theme-dark"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Components / LoadingSpinner lets you pick a size 1`] = `
+<div>
+  <div
+    class="ui-loading-spinner"
+    style="width: 40px; height: 40px;"
+  >
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-1"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 6px; height: 6px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-2"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 6px; height: 6px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-3"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 6px; height: 6px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-4"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 6px; height: 6px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-5"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 6px; height: 6px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-6"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 6px; height: 6px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-7"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 6px; height: 6px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-8"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 6px; height: 6px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-9"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 6px; height: 6px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-10"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 6px; height: 6px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-11"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 6px; height: 6px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-12"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 6px; height: 6px;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Components / LoadingSpinner renders a loading spinner 1`] = `
+<div>
+  <div
+    class="ui-loading-spinner"
+    style="width: 20px; height: 20px;"
+  >
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-1"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-2"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-3"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-4"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-5"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-6"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-7"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-8"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-9"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-10"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-11"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+    <div
+      class="ui-loading-spinner__circle ui-loading-spinner__circle-12"
+    >
+      <span
+        class="ui-loading-spinner__circle__inner"
+        style="width: 3px; height: 3px;"
+      />
+    </div>
+  </div>
+</div>
+`;
