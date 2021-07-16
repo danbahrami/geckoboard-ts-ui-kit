@@ -1,30 +1,123 @@
-.storybook-button {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  border: 0;
-  border-radius: 3em;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 1;
-}
-.storybook-button--primary {
+.Button {
+  appearance: none;
+  border: none;
+  background: green;
+  border-radius: 6px;
+  font-size: 1rem;
   color: white;
-  background-color: #1ea7fd;
+  padding: 0.5em 1em;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  text-decoration: none !important;
+
+  box-sizing: border-box;
 }
-.storybook-button--secondary {
-  color: #333;
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+
+.Button:disabled {
+  opacity: 0.5;
+  cursor: default;
 }
-.storybook-button--small {
-  font-size: 12px;
-  padding: 10px 16px;
+
+.Button:focus {
+  box-shadow: 0 0 0 1px #16113a;
 }
-.storybook-button--medium {
-  font-size: 14px;
-  padding: 11px 20px;
+
+.Button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
-.storybook-button--large {
-  font-size: 16px;
-  padding: 12px 24px;
+
+/**
+ * INTENTS
+ **/
+
+/* Primary */
+.Button--intent-primary {
+  background-color: #0fd354;
+  color: #16113a;
+}
+
+.Button--intent-primary:visited,
+.Button--intent-primary:hover:not(:disabled),
+.Button--intent-primary:link,
+.Button--intent-primary:focus {
+  color: #16113a;
+}
+
+.Button--intent-primary:hover:not(:disabled) {
+  /* Prevent global button and anchor styles affecting the color */
+  background-color: #0ca341;
+  color: #16113a;
+}
+
+/* Secondary */
+.Button--intent-secondary {
+  background-color: #dfe4ee;
+  color: #16113a;
+}
+
+.Button--intent-secondary:visited,
+.Button--intent-secondary:hover:not(:disabled),
+.Button--intent-secondary:link,
+.Button--intent-secondary:focus {
+  color: #16113a;
+}
+
+.Button--intent-secondary:hover:not(:disabled) {
+  /* Prevent global button and anchor styles affecting the color */
+  background-color: #bec8dc;
+  color: #16113a;
+}
+
+/* Nagative */
+.Button--intent-negative {
+  background-color: #ec373c;
+  color: #ffffff;
+}
+
+.Button--intent-negative:visited,
+.Button--intent-negative:hover:not(:disabled),
+.Button--intent-negative:link,
+.Button--intent-negative:focus {
+  color: #ffffff;
+}
+
+.Button--intent-negative:hover:not(:disabled) {
+  /* Prevent global button and anchor styles affecting the color */
+  background-color: #db151a;
+  color: #ffffff;
+}
+
+/**
+ * SIZES
+ **/
+.Button--size-extra-small {
+  font-size: 0.75rem;
+  height: 27px;
+}
+
+.Button--size-small {
+  font-size: 0.875rem;
+  line-height: 1;
+  height: 28px;
+}
+
+.Button--size-medium {
+  font-size: 1rem;
+  height: 36px;
+}
+
+.Button--size-large {
+  font-size: 1.25rem;
+  line-height: 1;
+  height: 40px;
+}
+
+/**
+ * OTHER MODIFIERS
+ **/
+.Button--stretched {
+  width: 100%;
 }

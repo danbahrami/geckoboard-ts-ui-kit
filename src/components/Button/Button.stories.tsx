@@ -25,13 +25,6 @@ Negative.args = {
   intent: 'negative',
 };
 
-export const Link = Template.bind({});
-Link.args = {
-  intent: 'link',
-  href: 'https://www.geckoboard.com',
-  target: '_blank',
-};
-
 export const ExtraSmall = Template.bind({});
 ExtraSmall.args = {
   size: 'extra-small',

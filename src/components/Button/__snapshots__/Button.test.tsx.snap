@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components / Button snapshots matches these snapshots 1`] = `
+<div>
+  <button
+    class="Button Button--intent-primary Button--size-medium"
+    type="button"
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Components / Button snapshots matches these snapshots 2`] = `
+<div>
+  <button
+    class="Button Button--intent-negative Button--size-medium"
+    type="button"
+  >
+    Cancel
+  </button>
+</div>
+`;
+
+exports[`Components / Button snapshots matches these snapshots 3`] = `
+<div>
+  <a
+    class="Button Button--intent-primary Button--size-medium"
+    href="https://www.geckoboard.com"
+    target="window"
+    type="button"
+  >
+    Go home
+  </a>
+</div>
+`;

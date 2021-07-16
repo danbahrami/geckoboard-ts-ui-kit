@@ -1,6 +1,10 @@
 import React from 'react';
 import noop from 'lodash/noop';
+import classnames from 'classnames';
 import './button.css';
+
+export type ButtonIntent = 'primary' | 'secondary' | 'negative';
+export type ButtonSize = 'extra-small' | 'small' | 'medium' | 'large';
 
 export interface ButtonProps {
   /**
@@ -12,16 +16,14 @@ export interface ButtonProps {
 
   href?: string;
 
-  icon?: string;
-
-  intent?: 'primary' | 'secondary' | 'negative' | 'link';
+  intent: ButtonIntent;
 
   loading?: boolean;
 
   /**
    * How large should the button be?
    */
-  size?: 'extra-small' | 'small' | 'medium' | 'large';
+  size?: ButtonSize;
 
   /**
    * Should the button fill its parent's width
@@ -61,7 +63,6 @@ export const Button = (props: ButtonProps): React.ReactElement => {
     children,
     disabled,
     href,
-    icon,
     intent,
     loading,
     size,
@@ -75,10 +76,17 @@ export const Button = (props: ButtonProps): React.ReactElement => {
   } = props;
 
   const Tag = href ? 'a' : 'button';
-  const hasIcon = !!icon && !loading;
+
+  const className = classnames(
+    'Button',
+    `Button--intent-${intent}`,
+    `Button--size-${size}`,
+    { 'Button--stretched': stretched },
+  );
 
   return (
     <Tag
+      className={className}
       disabled={disabled || loading}
       href={href}
       onClick={onClick}
